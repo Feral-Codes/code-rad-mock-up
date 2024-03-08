@@ -12,6 +12,21 @@
   display: none;
 }
 
+.navbar-toggler {
+  position: absolute;
+  right: var(--size-20);
+  top: var(--size-10);
+  outline: none;
+  border: 1px solid transparent;
+  background-color: transparent;
+}
+
+.navbar-toggler span {
+  color: var(--white);
+  font-size: var(--size-20);
+  cursor: pointer;
+}
+
 .navbar-nav {
   display: flex;
   align-items: center;
